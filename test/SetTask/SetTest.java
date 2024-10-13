@@ -60,6 +60,15 @@ public class SetTest {
     }
 
     @Test
+    public void test_that_set_contain_element_from_set_list(){
+        main_set();
+        assertTrue(set.contains("Samibyrone"));
+        assertFalse(set.contains("Data-Structure-and-aAlgorithm"));
+        assertEquals(set.size(), 5);
+        assertFalse(set.isEmpty());
+    }
+
+    @Test
     public void test_that_set_can_clear_all_element_from_set_list() {
         main_set();
         assertTrue(set.contains("Samibyrone"));
