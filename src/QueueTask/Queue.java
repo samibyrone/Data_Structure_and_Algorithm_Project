@@ -20,9 +20,9 @@ public class Queue {
         return size == 0;
     }
 
-    public boolean isFull() {
-        return size == implementation;
-    }
+//    public boolean isFull() {
+//        return size == implementation;
+//    }
 
     public boolean add(String content){
         if(size == implementation){

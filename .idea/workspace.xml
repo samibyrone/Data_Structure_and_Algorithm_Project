@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae2424a5-ce29-4760-b5b2-b74069a64edc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayListTask/Array_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ArrayListTask/Array_ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SetTask/SetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListTask/ArrayList.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QueueTask/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueTask/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ArrayListTask/ArrayListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetTask/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetTask/Set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/QueueTask/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/QueueTask/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/StackTask/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/StackTask/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SetTask/SetTask.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,9 @@
     "JUnit.QueueTest.test_that_queue_can_add_and_remove_from_queue.executor": "Run",
     "JUnit.QueueTest.test_that_queue_can_remove_element_from_queue.executor": "Run",
     "JUnit.QueueTest.test_that_queue_contains_and_element_from_queue.executor": "Run",
+    "JUnit.SetTask.executor": "Run",
+    "JUnit.SetTest.executor": "Run",
+    "JUnit.SetTest.test_that_set_can_remove_element_to_set_list.executor": "Run",
     "JUnit.StackTest.StackCanPushBCD_andPopTest.executor": "Run",
     "JUnit.StackTest.executor": "Run",
     "JUnit.StackTest.testForStackCanPush.executor": "Run",
@@ -79,70 +80,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.QueueTest.test_that_queue_contains_and_element_from_queue">
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_And_Algorithm_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueueTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueueTask" />
-      <option name="MAIN_CLASS_NAME" value="QueueTask.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.test_that_queue_can_add_and_peek_into_element_on_queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_And_Algorithm_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueueTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueueTask" />
-      <option name="MAIN_CLASS_NAME" value="QueueTask.QueueTest" />
-      <option name="METHOD_NAME" value="test_that_queue_can_add_and_peek_into_element_on_queue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.test_that_queue_can_add_and_remove_from_queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_And_Algorithm_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueueTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueueTask" />
-      <option name="MAIN_CLASS_NAME" value="QueueTask.QueueTest" />
-      <option name="METHOD_NAME" value="test_that_queue_can_add_and_remove_from_queue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.test_that_queue_can_remove_element_from_queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_And_Algorithm_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueueTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueueTask" />
-      <option name="MAIN_CLASS_NAME" value="QueueTask.QueueTest" />
-      <option name="METHOD_NAME" value="test_that_queue_can_remove_element_from_queue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="QueueTest.test_that_queue_contains_and_element_from_queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
@@ -159,13 +97,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SetTask" />
+      <option name="MAIN_CLASS_NAME" value="SetTask.SetTask" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SetTask" />
+      <option name="MAIN_CLASS_NAME" value="SetTask.SetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest.test_that_set_can_clear_all_elements_from_set_and_add_to_the_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SetTask" />
+      <option name="MAIN_CLASS_NAME" value="SetTask.SetTest" />
+      <option name="METHOD_NAME" value="test_that_set_can_clear_all_elements_from_set_and_add_to_the_list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest.test_that_set_can_remove_element_to_set_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SetTask" />
+      <option name="MAIN_CLASS_NAME" value="SetTask.SetTest" />
+      <option name="METHOD_NAME" value="test_that_set_can_remove_element_to_set_list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SetTest.test_that_set_can_clear_all_elements_from_set_and_add_to_the_list" />
+        <item itemvalue="JUnit.SetTest" />
+        <item itemvalue="JUnit.SetTest.test_that_set_can_remove_element_to_set_list" />
+        <item itemvalue="JUnit.SetTask" />
         <item itemvalue="JUnit.QueueTest.test_that_queue_contains_and_element_from_queue" />
-        <item itemvalue="JUnit.QueueTest.test_that_queue_can_add_and_remove_from_queue" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.test_that_queue_can_add_and_peek_into_element_on_queue" />
-        <item itemvalue="JUnit.QueueTest.test_that_queue_can_remove_element_from_queue" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,7 @@
       <workItem from="1726129124185" duration="248000" />
       <workItem from="1728691174731" duration="697000" />
       <workItem from="1728751819483" duration="20123000" />
-      <workItem from="1728812417695" duration="13713000" />
+      <workItem from="1728812417695" duration="18147000" />
     </task>
     <servers />
   </component>

@@ -35,7 +35,7 @@ public class QueueTest {
     }
 
     @Test
-    public void test_that_queue_can_add_and_offer_more_element_to_queue(){
+    public void test_that_queue_can_add_item_and_offer_more_element_to_queue(){
         queue.size();
         queue.isEmpty();
         queue.add("Samibyrone");
