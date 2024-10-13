@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae2424a5-ce29-4760-b5b2-b74069a64edc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Structure_And_Algorithm_projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayListTask/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedListTask/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapTask/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QueueTask/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetTask/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackTask/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArrayListTask/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/LinkedListTask/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MapTask/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/QueueTask/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SetTask/SetTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/StackTask/StackTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2lL83RcNclTlbWGn7GKKwHlZvVH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.StackTest.StackCanPushBCD_andPopTest.executor": "Run",
+    "JUnit.StackTest.executor": "Run",
+    "JUnit.StackTest.testForStackCanPush.executor": "Run",
+    "JUnit.StackTest.testForStackIsNotEmpty.executor": "Run",
+    "JUnit.StackTest.testThatStack_CanPeek.executor": "Run",
+    "JUnit.StackTest.testThatStack_CanPeek_and_check_size.executor": "Run",
+    "JUnit.StackTest.testThatStack_CanPushBCD_andPop.executor": "Debug",
+    "JUnit.StackTest.testThatStack_CanPush_andPop.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/DELL USER/IdeaProjects/DSA_projects/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StackTask" />
+      <option name="MAIN_CLASS_NAME" value="StackTask.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.testForStackIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StackTask" />
+      <option name="MAIN_CLASS_NAME" value="StackTask.StackTest" />
+      <option name="METHOD_NAME" value="testForStackIsNotEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.testThatStack_CanPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StackTask" />
+      <option name="MAIN_CLASS_NAME" value="StackTask.StackTest" />
+      <option name="METHOD_NAME" value="testThatStack_CanPeek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.testThatStack_CanPeek_and_check_size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StackTask" />
+      <option name="MAIN_CLASS_NAME" value="StackTask.StackTest" />
+      <option name="METHOD_NAME" value="testThatStack_CanPeek_and_check_size" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.testThatStack_CanPush_andPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StackTask" />
+      <option name="MAIN_CLASS_NAME" value="StackTask.StackTest" />
+      <option name="METHOD_NAME" value="testThatStack_CanPush_andPop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StackTest.testThatStack_CanPeek_and_check_size" />
+        <item itemvalue="JUnit.StackTest.testThatStack_CanPeek" />
+        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="JUnit.StackTest.testThatStack_CanPush_andPop" />
+        <item itemvalue="JUnit.StackTest.testForStackIsNotEmpty" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae2424a5-ce29-4760-b5b2-b74069a64edc" name="Changes" comment="" />
+      <created>1724947799260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724947799260</updated>
+      <workItem from="1724947800400" duration="11064000" />
+      <workItem from="1725122599764" duration="330000" />
+      <workItem from="1725131015702" duration="55000" />
+      <workItem from="1726129124185" duration="248000" />
+      <workItem from="1728691174731" duration="697000" />
+      <workItem from="1728751819483" duration="11715000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
