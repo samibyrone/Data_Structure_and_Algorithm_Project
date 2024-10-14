@@ -1,4 +1,4 @@
 package LinkedListTask;
 
-public class LinkedList {
+public class LinkedList{
 }

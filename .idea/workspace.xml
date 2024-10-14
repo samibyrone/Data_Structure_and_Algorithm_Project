@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae2424a5-ce29-4760-b5b2-b74069a64edc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MapTask/MapDSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapTask/MapDSA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/MapTask/MapDSATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MapTask/MapDSATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListTask/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListTask/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ArrayListTask/Array_ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ArrayListTask/Array_ListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL USER/IdeaProjects/DSA_projects/src/StackTask",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,7 +89,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MapDSATest.test_that_map_contains_in_element_can_be_cleared_from_map_list">
+  <component name="RunManager">
     <configuration name="MapDSATest.test_that_map_contains_in_element_can_be_cleared_from_map_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
@@ -200,7 +202,7 @@
       <workItem from="1726129124185" duration="248000" />
       <workItem from="1728691174731" duration="697000" />
       <workItem from="1728751819483" duration="20123000" />
-      <workItem from="1728812417695" duration="32069000" />
+      <workItem from="1728812417695" duration="41396000" />
     </task>
     <servers />
   </component>

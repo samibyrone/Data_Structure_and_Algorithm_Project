@@ -2,7 +2,6 @@ package ArrayListTask;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Array_ListTest {
@@ -23,6 +22,10 @@ public class Array_ListTest {
 
     @Test
     public void test_that_arrayList_can_add_element_to_arrayList() {
+        ArrayList_menu();
+    }
+
+    private void ArrayList_menu() {
         arrayList.size();
         arrayList.add("Samibyrone");
         arrayList.add("Semicolon");
@@ -33,10 +36,7 @@ public class Array_ListTest {
 
     @Test
     public void test_that_arrayList_can_remove_element_from_arrayList() {
-        arrayList.size();
-        arrayList.add("Samibyrone");
-        arrayList.add("Semicolon");
-        arrayList.add("Fantastic");
+        ArrayList_menu();
         arrayList.add("Expendable");
         arrayList.remove("Fantastic");
         assertEquals(arrayList.size(), 3);
@@ -45,10 +45,7 @@ public class Array_ListTest {
 
     @Test
     public void test_that_arrayList_can_get_element_from_index_position() {
-        arrayList.size();
-        arrayList.add("Samibyrone");
-        arrayList.add("Semicolon");
-        arrayList.add("Fantastic");
+        ArrayList_menu();
         arrayList.add("Expendable");
         arrayList.add("Exceptional");
         assertEquals("Fantastic", arrayList.get(2));
@@ -57,10 +54,7 @@ public class Array_ListTest {
 
     @Test
     public void test_that_arrayList_can_get_element_of_index_not_on_the_list() {
-        arrayList.size();
-        arrayList.add("Samibyrone");
-        arrayList.add("Semicolon");
-        arrayList.add("Fantastic");
+        ArrayList_menu();
         arrayList.add("Expendable");
         arrayList.add("Exceptional");
         assertNull(arrayList.get(10));
@@ -70,10 +64,7 @@ public class Array_ListTest {
 
     @Test
     public void test_that_arrayList_can_resize_element_in_the_array_position() {
-        arrayList.size();
-        arrayList.add("Samibyrone");
-        arrayList.add("Semicolon");
-        arrayList.add("Fantastic");
+        ArrayList_menu();
         arrayList.add("Expendable");
         arrayList.add("Exceptional");
         arrayList.resize();
@@ -86,10 +77,7 @@ public class Array_ListTest {
 
     @Test
     public void test_that_arrayList_can_add_and_resize_element_in_the_array_position() {
-        arrayList.size();
-        arrayList.add("Samibyrone");
-        arrayList.add("Semicolon");
-        arrayList.add("Fantastic");
+        ArrayList_menu();
         arrayList.add("Expendable");
         arrayList.add("Exceptional");
         arrayList.resize();
@@ -105,10 +93,7 @@ public class Array_ListTest {
 
     @Test
     public void test_that_arrayList_can_add_and_resize__and_remove_element_in_the_array_position() {
-        arrayList.size();
-        arrayList.add("Samibyrone");
-        arrayList.add("Semicolon");
-        arrayList.add("Fantastic");
+        ArrayList_menu();
         arrayList.add("Expendable");
         arrayList.add("Exceptional");
         arrayList.resize();

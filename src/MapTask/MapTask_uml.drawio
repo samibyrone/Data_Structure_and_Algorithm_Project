@@ -1,0 +1,9 @@
+<mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" background="none" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="node0" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MapDSA&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ MapDSA(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- map: Map&amp;lt;String, Integer&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ containsValue(Integer): boolean&lt;br/&gt;+ replace(String, Integer): void&lt;br/&gt;+ get(String): Integer&lt;br/&gt;+ hashCode(): int&lt;br/&gt;+ compute(String, BiFunction&amp;lt;String, Integer, Integer&amp;gt;): void&lt;br/&gt;+ containsKey(String): boolean&lt;br/&gt;+ remove(String): Integer&lt;br/&gt;+ isEmpty(): boolean&lt;br/&gt;+ size(): int&lt;br/&gt;+ computeIfPresent(String, BiFunction&amp;lt;String, Integer, Integer&amp;gt;): void&lt;br/&gt;+ put(String, Integer): void&lt;br/&gt;+ clear(): void&lt;br/&gt;+ computeIfAbsent(String, Function&amp;lt;String, Integer&amp;gt;): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-57" y="-13" width="457" height="401" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
