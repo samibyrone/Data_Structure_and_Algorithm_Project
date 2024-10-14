@@ -54,10 +54,6 @@ public class MapDSA {
         map.computeIfAbsent(key, func);
     }
 
-    public void forEach(java.util.function.BiConsumer<String, Integer> action) {
-        map.forEach(action);
-    }
-
     public boolean containsKey(String Pass) {
         return map.containsKey(Pass);
     }
