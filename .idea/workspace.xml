@@ -6,8 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ae2424a5-ce29-4760-b5b2-b74069a64edc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListTask/.$Array_List_uml.drawio.dtmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListTask/Array_List_uml.drawio" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedListTask/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListTask/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ArrayListTask/Array_ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ArrayListTask/Array_ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapTask/MapTask_uml.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueTask/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueTask/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueTask/QueueTask_uml.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetTask/SetTask_uml.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackTask/StackTask_uml.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/LinkedListTask/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/LinkedListTask/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MapTask/MapDSATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MapTask/MapDSATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/QueueTask/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/QueueTask/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SetTask/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SetTask/SetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +54,9 @@
     "JUnit.Array_ListTest.test_that_arrayList_can_get_element_of_index_not_on_the_list.executor": "Run",
     "JUnit.Array_ListTest.test_that_arrayList_can_remove_element_from_arrayList.executor": "Run",
     "JUnit.Array_ListTest.test_that_arrayList_can_resize_element_in_the_array_position.executor": "Run",
+    "JUnit.LinkedListTest.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_clear_element.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_clone_element.executor": "Run",
     "JUnit.MapDSATest.test_that_map_contains_in_element_can_be_cleared_from_map_list.executor": "Run",
     "JUnit.MapTest.executor": "Run",
     "JUnit.MapTest.testThatMapIsNotEmpty.executor": "Run",
@@ -58,6 +71,7 @@
     "JUnit.QueueTest.test_that_arrayList_can_add_element_to_arrayList.executor": "Run",
     "JUnit.QueueTest.test_that_queue_can_add_and_peek_into_element_on_queue.executor": "Run",
     "JUnit.QueueTest.test_that_queue_can_add_and_remove_from_queue.executor": "Run",
+    "JUnit.QueueTest.test_that_queue_can_poll_from_queue.executor": "Run",
     "JUnit.QueueTest.test_that_queue_can_remove_element_from_queue.executor": "Run",
     "JUnit.QueueTest.test_that_queue_contains_and_element_from_queue.executor": "Run",
     "JUnit.SetTask.executor": "Run",
@@ -89,82 +103,81 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MapDSATest.test_that_map_contains_in_element_can_be_cleared_from_map_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest.test_that_linkedList_can_get_elements_in_a_list">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MapTask.*" />
+          <option name="PATTERN" value="LinkedListTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MapTask" />
-      <option name="MAIN_CLASS_NAME" value="MapTask.MapDSATest" />
-      <option name="METHOD_NAME" value="test_that_map_contains_in_element_can_be_cleared_from_map_list" />
+      <option name="PACKAGE_NAME" value="LinkedListTask" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.test_that_linkedList_can_clear_element" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedListTask" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
+      <option name="METHOD_NAME" value="test_that_linkedList_can_clear_element" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.test_that_set_can_compute_ifAbsent_element_from_map_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.test_that_linkedList_can_clone_element" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MapTask.*" />
+          <option name="PATTERN" value="LinkedListTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MapTask" />
-      <option name="MAIN_CLASS_NAME" value="MapTask.MapTest" />
-      <option name="METHOD_NAME" value="test_that_set_can_compute_ifAbsent_element_from_map_list" />
+      <option name="PACKAGE_NAME" value="LinkedListTask" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
+      <option name="METHOD_NAME" value="test_that_linkedList_can_clone_element" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.test_that_set_can_compute_ifPresent_element_from_map_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.test_that_linkedList_can_get_elements_in_a_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MapTask.*" />
+          <option name="PATTERN" value="LinkedListTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MapTask" />
-      <option name="MAIN_CLASS_NAME" value="MapTask.MapTest" />
-      <option name="METHOD_NAME" value="test_that_set_can_compute_ifPresent_element_from_map_list" />
+      <option name="PACKAGE_NAME" value="LinkedListTask" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
+      <option name="METHOD_NAME" value="test_that_linkedList_can_get_elements_in_a_list" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.test_that_set_containsKey_in_element_on_map_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.test_that_linkedList_can_remove_element" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MapTask.*" />
+          <option name="PATTERN" value="LinkedListTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MapTask" />
-      <option name="MAIN_CLASS_NAME" value="MapTask.MapTest" />
-      <option name="METHOD_NAME" value="test_that_set_containsKey_in_element_on_map_list" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapTest.test_that_set_containsValue_in_element_on_map_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_And_Algorithm_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MapTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MapTask" />
-      <option name="MAIN_CLASS_NAME" value="MapTask.MapTest" />
-      <option name="METHOD_NAME" value="test_that_set_containsValue_in_element_on_map_list" />
+      <option name="PACKAGE_NAME" value="LinkedListTask" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
+      <option name="METHOD_NAME" value="test_that_linkedList_can_remove_element" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapDSATest.test_that_map_contains_in_element_can_be_cleared_from_map_list" />
-        <item itemvalue="JUnit.MapTest.test_that_set_containsValue_in_element_on_map_list" />
-        <item itemvalue="JUnit.MapTest.test_that_set_containsKey_in_element_on_map_list" />
-        <item itemvalue="JUnit.MapTest.test_that_set_can_compute_ifPresent_element_from_map_list" />
-        <item itemvalue="JUnit.MapTest.test_that_set_can_compute_ifAbsent_element_from_map_list" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_get_elements_in_a_list" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_remove_element" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_clear_element" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_clone_element" />
+        <item itemvalue="JUnit.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +215,8 @@
       <workItem from="1726129124185" duration="248000" />
       <workItem from="1728691174731" duration="697000" />
       <workItem from="1728751819483" duration="20123000" />
-      <workItem from="1728812417695" duration="41396000" />
+      <workItem from="1728812417695" duration="44962000" />
+      <workItem from="1728908916487" duration="7324000" />
     </task>
     <servers />
   </component>

@@ -19,11 +19,6 @@ public class Queue {
     public boolean isEmpty() {
         return size == 0;
     }
-
-//    public boolean isFull() {
-//        return size == implementation;
-//    }
-
     public boolean add(String content){
         if(size == implementation){
             myIplementation(implementation * 2);
