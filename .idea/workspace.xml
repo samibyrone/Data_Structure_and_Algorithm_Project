@@ -6,18 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ae2424a5-ce29-4760-b5b2-b74069a64edc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListTask/.$Array_List_uml.drawio.dtmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListTask/Array_List_uml.drawio" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedListTask/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListTask/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapTask/MapTask_uml.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueueTask/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueTask/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueueTask/QueueTask_uml.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetTask/SetTask_uml.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackTask/StackTask_uml.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/LinkedListTask/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/LinkedListTask/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/MapTask/MapDSATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MapTask/MapDSATest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/QueueTask/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/QueueTask/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SetTask/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SetTask/SetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/LinkedListTask/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/LinkedListTask/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +47,14 @@
     "JUnit.LinkedListTest.executor": "Run",
     "JUnit.LinkedListTest.test_that_linkedList_can_clear_element.executor": "Run",
     "JUnit.LinkedListTest.test_that_linkedList_can_clone_element.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_get_elements_in_a_list.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_peek_into_elements_of_the_list.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_push_and_poll_elements_to_the_list.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_push_and_pop_elements_to_the_list.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_remove_and_check_if_element_contains_in_the_list.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_remove_element.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_can_set_elements_in_the_list.executor": "Run",
+    "JUnit.LinkedListTest.test_that_linkedList_offer_elements_to_the_list.executor": "Run",
     "JUnit.MapDSATest.test_that_map_contains_in_element_can_be_cleared_from_map_list.executor": "Run",
     "JUnit.MapTest.executor": "Run",
     "JUnit.MapTest.testThatMapIsNotEmpty.executor": "Run",
@@ -103,38 +101,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.test_that_linkedList_can_get_elements_in_a_list">
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_And_Algorithm_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedListTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedListTask" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.test_that_linkedList_can_clear_element" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_And_Algorithm_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedListTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedListTask" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
-      <option name="METHOD_NAME" value="test_that_linkedList_can_clear_element" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedListTest.test_that_linkedList_can_clone_element">
     <configuration name="LinkedListTest.test_that_linkedList_can_clone_element" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
@@ -167,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.test_that_linkedList_can_remove_element" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.test_that_linkedList_can_peek_into_elements_of_the_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_And_Algorithm_projects" />
       <extension name="coverage">
         <pattern>
@@ -177,7 +144,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedListTask" />
       <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
-      <option name="METHOD_NAME" value="test_that_linkedList_can_remove_element" />
+      <option name="METHOD_NAME" value="test_that_linkedList_can_peek_into_elements_of_the_list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.test_that_linkedList_can_push_and_poll_elements_to_the_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedListTask" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
+      <option name="METHOD_NAME" value="test_that_linkedList_can_push_and_poll_elements_to_the_list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.test_that_linkedList_offer_elements_to_the_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_And_Algorithm_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedListTask" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTask.LinkedListTest" />
+      <option name="METHOD_NAME" value="test_that_linkedList_offer_elements_to_the_list" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_get_elements_in_a_list" />
-        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_remove_element" />
-        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_clear_element" />
         <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_clone_element" />
-        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_offer_elements_to_the_list" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_peek_into_elements_of_the_list" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_get_elements_in_a_list" />
+        <item itemvalue="JUnit.LinkedListTest.test_that_linkedList_can_push_and_poll_elements_to_the_list" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +215,9 @@
       <workItem from="1728691174731" duration="697000" />
       <workItem from="1728751819483" duration="20123000" />
       <workItem from="1728812417695" duration="44962000" />
-      <workItem from="1728908916487" duration="7324000" />
+      <workItem from="1728908916487" duration="11019000" />
+      <workItem from="1729370686942" duration="665000" />
+      <workItem from="1729451990970" duration="13688000" />
     </task>
     <servers />
   </component>

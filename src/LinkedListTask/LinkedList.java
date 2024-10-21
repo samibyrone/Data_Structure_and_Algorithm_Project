@@ -64,7 +64,7 @@ public class LinkedList{
         head = null;
     }
 
-    public void set(int value, int index){
+    public void set(int index, int value){
         Node current = head;
         int counter = 0;
         while(current != null){
@@ -110,7 +110,7 @@ public class LinkedList{
         }
         throw new IndexOutOfBoundsException("List is empty");
     }
-po
+
     public Integer poll(){
         if(head != null) { int value = head.value;
             head = head.next;
@@ -122,8 +122,8 @@ po
         return head != null ? head.value : null;
     }
 
-    public int element(){
-        if(head != null) { return head.value; }
-        throw new IndexOutOfBoundsException("List is empty");
-    }
+//    public int element(){
+//        if(head != null) { return head.value; }
+//        throw new IndexOutOfBoundsException("List is empty");
+//    }
 }
